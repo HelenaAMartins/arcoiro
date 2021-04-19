@@ -28,8 +28,9 @@ function drawCircle(event) {
 whiteCanva.onmousemove = drawCircle;
 
 // pressing mouse button
-whiteCanva.onmousedown = function () {
+whiteCanva.onmousedown = function (event) {
   draw = true;
+  drawCircle(event);
 };
 
 // without pressing mouse button
