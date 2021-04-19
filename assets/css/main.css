@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap");
+body {
+  background: url(../img/bg.png) #8333b6;
+  background-position: center center;
+  font-family: "Finger Paint", cursive;
+  color: #95d7b3;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: calc(100vh - 58px);
+  justify-content: center;
+}
+
+div {
+  margin-bottom: 10px;
+  background: url(../img/woodBg.png);
+  text-align: center;
+  padding: 15px;
+}
+
+label {
+  font-size: 30px;
+  color: #8333b6;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+label img {
+  width: 30px;
+}
+
+button {
+  border: 0;
+  border-radius: 25px;
+  padding: 12px 20px;
+  background: #95d7b3;
+  color: #8333b6;
+}
+
+footer {
+  background: #95d7b3;
+  text-align: center;
+  font-size: 12px;
+  padding: 20px;
+  color: #8333b6;
+}
+
+footer a {
+  color: #8333b6;
+}
